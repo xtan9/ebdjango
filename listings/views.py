@@ -9,3 +9,9 @@ def index(request):
     return render(request, 'listings/index.html')
 
 
+def add_to_cart(request):
+    return render(request, 'listings/add_to_cart.html')
+
+
+def purchase(request):
+    return render(request, 'listings/purchase.html')
