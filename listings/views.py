@@ -9,8 +9,16 @@ def index(request):
     return render(request, 'listings/index.html')
 
 
-def add_to_cart(request):
-    return render(request, 'listings/add_to_cart.html')
+def add_to_cart_1(request):
+    return render(request, 'listings/add_to_cart_1.html')
+
+
+def add_to_cart_2(request):
+    return render(request, 'listings/add_to_cart_2.html')
+
+
+def add_to_cart_3(request):
+    return render(request, 'listings/add_to_cart_3.html')
 
 
 def purchase(request):
