@@ -11,8 +11,15 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
+    var content_ids = [product.id];
+        var value = product.price;
+        var currency = product.currency;
+        var content_type = 'product';
+        var onetrust_id = 'c9e2ec29-b611-46cd-babd-3c2ec7ec02b5';
+        var salesforce_id = '0038c00002dMaOBAA0';
+        var test_event_code = 'TEST7649';
     fbq('init', '671983427427602');
-    fbq('track', 'AddToCart', {salesforce_id: '0038b00002gSMM0AAO', 'test_event_code': 'TEST21864'});
+    fbq('track', 'AddToCart', {content_ids:["12345"], value:3, currency:"USD", conetent_type:'product', salesforce_id: '0038b00002gSMM0AAO', 'test_event_code': 'TEST21864'});
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=671983427427602&ev=PageView&noscript=1"
